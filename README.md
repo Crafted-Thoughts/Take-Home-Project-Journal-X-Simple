@@ -63,7 +63,7 @@ If you have any questions related to this project, you can send them to amogh@cr
 ## Finished? :clap: 
 You speed runner, aren't you?
 
-1. **Send us your completed project zip file by replying to the email address which sent you this challenge**
+1. **Send us your completed project zip file with total time it took by replying to the email address which sent you this challenge**
 
 2. Enjoyed this project? Please consider hiting the star button at the top to show your appriciation. Our fingers are crossed for you!
 
