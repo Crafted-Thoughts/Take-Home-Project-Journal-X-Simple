@@ -55,8 +55,17 @@ You can find designs of the app at the link below. Screenshot on the left is the
 
 ## Getting Started
 
-We have provided you a starter project which has file directory set for MVC design pattern and some existing code to help you get a head-start. You can clone this repo to get started 
+We have provided you a starter project which has file directory set for MVC design pattern and some existing code to help you get a head-start. You can clone this repo to get started. 
 
-### Questions/Suggestions?
+If you have any questions related to this project, you can send them to amogh@craftedthoughts.com
 
-Ask us any questions or send suggestions on how can we make this challenge better at amogh@craftedthoughts.com
+
+## Done with challenge :clap: 
+You speed runner, aren't you?
+
+1. **Send us your completed project zip file by replying to the email address which sent you this challenge**
+
+2. Enjoyed this project? Please consider hiting the star button at the top to show your appriciation. Our fingers are crossed for you :+1:
+
+#### You can send suggestions on how can we make this challenge better at amogh@craftedthoughts.com
+
