@@ -60,12 +60,12 @@ We have provided you a starter project which has file directory set for MVC desi
 If you have any questions related to this project, you can send them to amogh@craftedthoughts.com
 
 
-## Done with challenge :clap: 
+## Finished? :clap: 
 You speed runner, aren't you?
 
 1. **Send us your completed project zip file by replying to the email address which sent you this challenge**
 
-2. Enjoyed this project? Please consider hiting the star button at the top to show your appriciation. Our fingers are crossed for you :+1:
+2. Enjoyed this project? Please consider hiting the star button at the top to show your appriciation. Our fingers are crossed for you!
 
 #### You can send suggestions on how can we make this challenge better at amogh@craftedthoughts.com
 
