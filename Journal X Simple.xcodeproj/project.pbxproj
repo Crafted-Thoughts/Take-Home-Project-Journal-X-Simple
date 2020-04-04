@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD6F336223E6E7AE007F9319 /* ABeeZee-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD6F336123E6E7AE007F9319 /* ABeeZee-Italic.otf */; };
+		CD6F336423E6E7BD007F9319 /* ABeeZee-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD6F336323E6E7BD007F9319 /* ABeeZee-Regular.otf */; };
 		CDF0D05D23E63FB20006C19A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0D05C23E63FB20006C19A /* AppDelegate.swift */; };
 		CDF0D05F23E63FB20006C19A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0D05E23E63FB20006C19A /* SceneDelegate.swift */; };
 		CDF0D06123E63FB20006C19A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0D06023E63FB20006C19A /* ViewController.swift */; };
 		CDF0D06423E63FB20006C19A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF0D06223E63FB20006C19A /* Main.storyboard */; };
 		CDF0D06623E63FB60006C19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF0D06523E63FB60006C19A /* Assets.xcassets */; };
 		CDF0D06923E63FB60006C19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF0D06723E63FB60006C19A /* LaunchScreen.storyboard */; };
+		CDF0D07423E63FED0006C19A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0D07323E63FED0006C19A /* Constants.swift */; };
+		CDF0D07623E640B40006C19A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0D07523E640B40006C19A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDF0D05923E63FB20006C19A /* Journal X Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal X Simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6F336123E6E7AE007F9319 /* ABeeZee-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABeeZee-Italic.otf"; sourceTree = "<group>"; };
+		CD6F336323E6E7BD007F9319 /* ABeeZee-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ABeeZee-Regular.otf"; sourceTree = "<group>"; };
+		CDF0D05923E63FB20006C19A /* Journal X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF0D05C23E63FB20006C19A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF0D05E23E63FB20006C19A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDF0D06023E63FB20006C19A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		CDF0D06523E63FB60006C19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF0D06823E63FB60006C19A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF0D06A23E63FB60006C19A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF0D07323E63FED0006C19A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDF0D07523E640B40006C19A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD6F335F23E6E793007F9319 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F336023E6E79B007F9319 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD6F336023E6E79B007F9319 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F336323E6E7BD007F9319 /* ABeeZee-Regular.otf */,
+				CD6F336123E6E7AE007F9319 /* ABeeZee-Italic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CDF0D05023E63FB20006C19A = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +73,7 @@
 		CDF0D05A23E63FB20006C19A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF0D05923E63FB20006C19A /* Journal X Simple.app */,
+				CDF0D05923E63FB20006C19A /* Journal X.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +83,40 @@
 			children = (
 				CDF0D05C23E63FB20006C19A /* AppDelegate.swift */,
 				CDF0D05E23E63FB20006C19A /* SceneDelegate.swift */,
-				CDF0D06023E63FB20006C19A /* ViewController.swift */,
-				CDF0D06223E63FB20006C19A /* Main.storyboard */,
+				CDF0D07523E640B40006C19A /* Extensions.swift */,
+				CDF0D07323E63FED0006C19A /* Constants.swift */,
+				CDF0D07223E63FDB0006C19A /* Model */,
+				CDF0D07023E63FC20006C19A /* View */,
+				CDF0D07123E63FCB0006C19A /* Controller */,
+				CD6F335F23E6E793007F9319 /* Resources */,
 				CDF0D06523E63FB60006C19A /* Assets.xcassets */,
 				CDF0D06723E63FB60006C19A /* LaunchScreen.storyboard */,
 				CDF0D06A23E63FB60006C19A /* Info.plist */,
 			);
 			path = "Journal X Simple";
+			sourceTree = "<group>";
+		};
+		CDF0D07023E63FC20006C19A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF0D06223E63FB20006C19A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDF0D07123E63FCB0006C19A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDF0D06023E63FB20006C19A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDF0D07223E63FDB0006C19A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +136,7 @@
 			);
 			name = "Journal X Simple";
 			productName = "Journal X Simple";
-			productReference = CDF0D05923E63FB20006C19A /* Journal X Simple.app */;
+			productReference = CDF0D05923E63FB20006C19A /* Journal X.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF0D06923E63FB60006C19A /* LaunchScreen.storyboard in Resources */,
+				CD6F336223E6E7AE007F9319 /* ABeeZee-Italic.otf in Resources */,
+				CD6F336423E6E7BD007F9319 /* ABeeZee-Regular.otf in Resources */,
 				CDF0D06623E63FB60006C19A /* Assets.xcassets in Resources */,
 				CDF0D06423E63FB20006C19A /* Main.storyboard in Resources */,
 			);
@@ -138,9 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF0D07623E640B40006C19A /* Extensions.swift in Sources */,
 				CDF0D06123E63FB20006C19A /* ViewController.swift in Sources */,
 				CDF0D05D23E63FB20006C19A /* AppDelegate.swift in Sources */,
 				CDF0D05F23E63FB20006C19A /* SceneDelegate.swift in Sources */,
+				CDF0D07423E63FED0006C19A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +343,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86J3SRZ52R;
 				INFOPLIST_FILE = "Journal X Simple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amogh.Journal-X-Simple";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.journalXsimple;
+				PRODUCT_NAME = "Journal X";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +362,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86J3SRZ52R;
 				INFOPLIST_FILE = "Journal X Simple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amogh.Journal-X-Simple";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YourName.journalXsimple;
+				PRODUCT_NAME = "Journal X";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
