@@ -17,7 +17,7 @@ You will be building a simple version of [Journal X](https://apps.apple.com/us/a
 
 ## Designs 
 
-You can find designs of the final app below. Screenshot on the left is the **Home Screen** and the screenshot on the right is the **Create New Entry Screen**. You can set any constraints while desinging the screens, but make sure final app looks similar to the designs provided.   
+You can find designs of the final app below. Screenshot on the left is the `Home Screen` and the screenshot on the right is the `Create New Entry Screen`. You can set any constraints while desinging the screens, but make sure final app looks similar to the designs provided.   
 
 ![Screenshot of Home Screen](https://i.ibb.co/NrPS40L/Home-Screen.png) ![Screenshot of Create New Entry Screen](https://i.ibb.co/X2xxBrs/Create-New-Entry.png)
 
