@@ -6,7 +6,9 @@ You will be building a simple version of [Journal X](https://apps.apple.com/us/a
 
 ## General Tips 
 
-- **Less code is better code.**
+- **Write clean readable code.**
+
+- Less code is better code.
 
 - Write short precise comments.
 
