@@ -55,6 +55,9 @@ You can find designs of the final app below. Screenshot on the left is the `Home
 
 - Change the bundle id before you start working on it
 
+- Don't use any 3rd party dependencies like **IQKeyboardManager**. We want to see your coding skills.
+
+
 ## Getting Started
 
 We have provided you a starter project which has file directory set for MVC design pattern and some existing code to help you get a head-start. You can clone this repo to get started. 
